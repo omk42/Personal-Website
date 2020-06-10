@@ -3,22 +3,25 @@
 
 html {
 /*	height: 100%;*/
-	background-color: black;
+/*	background-color: black;*/
+	background-color: transparent;
 }
 
 body {
 /*	height: 100%;*/
-	background-color: antiquewhite;
+/*	background-color: antiquewhite;*/
+	background-color: transparent;	
 }
 
 
 #outer-container {
 /*	height: 100%;*/
 /*	min-height:  320vh;*/
-	background-color: aqua;
+/*	background-color: aqua;*/
 	padding-left: 0px;
 	padding-right: 0px;
-	padding-top: 56px;
+	padding-top: 72px;
+	background-color: transparent;	
 }
 
 .full_page{
@@ -26,7 +29,7 @@ body {
 }
 
 #outer-container div{
-	border:solid;
+/*	border:solid;*/
 }
 
 
@@ -39,10 +42,14 @@ body {
 }
 
 #work-start {
-	padding-top: 56px;
+	padding-top: 72px;
 }
 
-
+.orange-gradient {
+	background: #FDC830;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 /*
 #outer-container div div div div {
 	background-color: aqua;
