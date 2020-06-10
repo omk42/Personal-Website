@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+/*	height: 100%;*/
+	background-color: black;
+}
+
+body {
+/*	height: 100%;*/
+	background-color: antiquewhite;
+}
+
+
+#outer-container {
+/*	height: 100%;*/
+/*	min-height:  320vh;*/
+	background-color: aqua;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 56px;
+}
+
+.full_page{
+	height: 97vh;
+}
+
+#outer-container div{
+	border:solid;
+}
+
+
+.work_title {
+	height: 20%;
+}
+
+.work_description {
+	height: 80%;
+}
+
+#work-start {
+	padding-top: 56px;
+}
+
+
+/*
+#outer-container div div div div {
+	background-color: aqua;
+	height: 100%;
+}
+*/
+
+/*
+nav {
+    margin-bottom: 0;
+	border: 0;
+}*/
