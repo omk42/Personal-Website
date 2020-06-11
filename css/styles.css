@@ -20,12 +20,12 @@ body {
 /*	background-color: aqua;*/
 	padding-left: 0px;
 	padding-right: 0px;
-	padding-top: 72px;
-	background-color: transparent;	
+/*	padding-top: 72p5x;*/
+/*	background-color: transparent;	*/
 }
 
 .full_page{
-	height: 97vh;
+	height: 100vh;
 }
 
 #outer-container div{
@@ -46,9 +46,26 @@ body {
 }
 
 .orange-gradient {
-	background: #FDC830;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*	background: #FDC830;   fallback for old browsers */
+/*    background: -webkit-linear-gradient(to bottom, #F37335, #FDC830);   Chrome 10-25, Safari 5.1-6 */
+/*    background: linear-gradient(to bottom, #F37335, #FDC830);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+/*	background: #f46b45;   fallback for old browsers */
+/*    background: -webkit-linear-gradient(to top, #eea849, #f46b45);   Chrome 10-25, Safari 5.1-6 */
+/*    background: linear-gradient(to top, #eea849, #f46b45);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #FA804A;
+
+
+}
+
+#contact-start {
+	background-color: #EBEBEB;	
+	
+}
+
+#projects-title {
+	font-style: "serif";
+	font-size: 50px;
 }
 /*
 #outer-container div div div div {
