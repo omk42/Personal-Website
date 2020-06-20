@@ -56,8 +56,9 @@ body {
 */
 
 .titles {
-	font-family: 'Hind', sans-serif;
 	font-size: 50px;
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif; 
 }
 
 .foot{
@@ -97,7 +98,7 @@ body {
 }
 
 .text-pad {
-	padding: 15% 0 0 0;
+	padding: 10% 0 0 0;
 }
 
 .quote {
@@ -139,6 +140,7 @@ body {
 	left: 10px;
 }
 
+
 @media only screen and (max-width: 600px) {
   .work_position {
 	position: absolute;
@@ -156,7 +158,7 @@ body {
 	
   .text-content {
 	font-size: 14px;
-	font-weight: 260;
+	font-weight: 280;
 	font-family: 'Roboto', sans-serif; 
 	color: white; 
   }
@@ -179,7 +181,32 @@ body {
 	font-family: 'Roboto', sans-serif; 
 	color: white;
   } 
+	
+  .project-col {
+		padding-bottom: 4%;
+	}
+	
+	.titles {
+		font-size: 30px;
+		font-weight: 500;
+		font-family: 'Montserrat', sans-serif; 
+	}
+	.project_title{
+		padding: 1% 0 1%;
+	}
 
 }
 
+@media only screen and (min-width: 600px) {
+	.project-col {
+		padding-right: 5%;
+		padding-left: 5%;
+		padding-bottom: 3%;
+	}
+
+	.project_title {
+		padding: 1% 5% 1%;
+	}
+
+}
 
